@@ -14,4 +14,4 @@ Here you’ll find:
 - 🛠 Projects I’m working on
 - 📬 Ways to get in touch
 
-Feel free to check out the [About](/docs/about/) page to learn more!
+Feel free to check out the [About](/about/) page to learn more!
