@@ -16,9 +16,9 @@ plugins:
   - jekyll-feed
 
 # Navigation bar (optional, if your layout supports it)
-nav:
-  - title: Blog
-    url: /blog/
+#nav:
+    # - title: Blog
+    #  url: /blog/
 
 # Exclude from processing (optional)
 exclude:
