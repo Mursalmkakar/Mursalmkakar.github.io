@@ -6,11 +6,6 @@ permalink: /
 
 # Social Data Analysis and Visualization 
 
-Assignment 2 - Spring 2025
-
-Group 13
-
-
 
 
 
