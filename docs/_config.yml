@@ -27,3 +27,16 @@ exclude:
   - README.md
   - node_modules
   - vendor
+
+#Page design 
+# _config.yml
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: default
+
+include:
+  - docs/assets/css/style.css
