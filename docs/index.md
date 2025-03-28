@@ -10,7 +10,7 @@ permalink: /
 In the bustling streets of San Francisco, vehicle theft remains a persistent urban challenge that affects residents and visitors alike. This analysis delves into an extensive dataset from the San Francisco Police Department, combining historical records from 2003 to 2018 with contemporary data through present day.
 Our dataset captures every reported vehicle theft incident, including crucial details such as the location, timing, and police district response. This comprehensive view allows us to track not just the raw numbers, but also understand the geographical and temporal patterns that shape vehicle crime in San Francisco.
 
-# Time Series Trend Analysis (2003-2025)
+# Time Series Trend Analysis (2003-2024)
 
 ![Vehicle Theft Trend](/vehicle_theft_trend.png)
 
@@ -18,7 +18,7 @@ Our dataset captures every reported vehicle theft incident, including crucial de
 
 Our first visualization reveals the ebb and flow of vehicle thefts across San Francisco over two decades. The time series plot is rendered in deep red to emphasize the gravity of these incidents.
 The visualization highlights several key findings: First, an unprecedented peak of 18,103 thefts occurred in the early 2000s. This period coincides with the pre-smartphone era when vehicle security systems were less sophisticated. Second, a sharp decline occurred from 2005 to 2006, with theft numbers dropping dramatically from approximately 18,000 to 7,000. This significant reduction might be attributed to the implementation of new police strategies, improvements in vehicle anti-theft technology, and the introduction of better security systems.
-Third, a steady decline period from 2006 to 2010 showed a gradual decrease to around 4,500 thefts. During 2011-2019, the trend shifted to show a moderate increase followed by fluctuating patterns, with thefts hovering between 5,000 and 8,000 annually. These small peaks and valleys suggest seasonal patterns in vehicle theft activity. Finally, the period from 2020 to 2025 exhibited notable fluctuations, particularly during the pandemic years, reflecting the unusual circumstances and changing urban dynamics of this period.
+Third, a steady decline period from 2006 to 2010 showed a gradual decrease to around 4,500 thefts. During 2011-2019, the trend shifted to show a moderate increase followed by fluctuating patterns, with thefts hovering between 5,000 and 8,000 annually. These small peaks and valleys suggest seasonal patterns in vehicle theft activity. Finally, the period from 2020 to 2024 exhibited notable fluctuations, particularly during the pandemic years, reflecting the unusual circumstances and changing urban dynamics of this period.
 
 
 # Vehicle Thefts by District
@@ -51,47 +51,53 @@ try:
 
     # Check if required files exist
     print("\nLoading data sources...")
-    historical_file = os.path.join(data_dir, 'Police_Department_Incident_Reports__Historical_2003_to_May_2018_20250325.csv')
-    recent_file = os.path.join(data_dir, 'Police_Department_Incident_Reports__2018_to_Present_20250325.csv')
-
-    check_file_exists(historical_file)
-    check_file_exists(recent_file)
+    data_file = os.path.join(script_dir, 'crime_data_final.csv')
+    
+    check_file_exists(data_file)
 
     # Read and process the data
     print("Loading datasets...")
-    historical_df = pd.read_csv(historical_file)
-    recent_df = pd.read_csv(recent_file)
+    df = pd.read_csv(data_file)
+
+    # Process dates
+    print("\nProcessing dates...")
+    df['Date'] = pd.to_datetime(df['Date'])
+    
+    # Extract time components BEFORE filtering
+    df['Year'] = df['Date'].dt.year
+    df['Month'] = df['Date'].dt.month
+
+    # Filter for vehicle thefts
+    print("\nFiltering vehicle thefts...")
+    vehicle_theft_df = df[df['Category'].str.contains('VEHICLE THEFT', case=False, na=False)].copy()
+
+    # Filter out future dates and limit to 2024
+    current_date = pd.Timestamp.now()
+    vehicle_theft_df = vehicle_theft_df[vehicle_theft_df['Date'] <= current_date]
+    vehicle_theft_df = vehicle_theft_df[vehicle_theft_df['Year'] <= 2024]
+
+    print(f"\nCombined data range: {vehicle_theft_df['Date'].min()} to {vehicle_theft_df['Date'].max()}")
+    print(f"Total vehicle theft records: {len(vehicle_theft_df)}")
 
     # Process dates for historical dataset
     print("\nProcessing dates...")
-    if 'Date' in historical_df.columns:
-        historical_df['Date'] = pd.to_datetime(historical_df['Date'])
-    elif 'Report Datetime' in historical_df.columns:
-        historical_df['Date'] = pd.to_datetime(historical_df['Report Datetime'])
+    if 'Date' in vehicle_theft_df.columns:
+        vehicle_theft_df['Date'] = pd.to_datetime(vehicle_theft_df['Date'])
+    elif 'Report Datetime' in vehicle_theft_df.columns:
+        vehicle_theft_df['Date'] = pd.to_datetime(vehicle_theft_df['Report Datetime'])
 
     # Process dates for recent dataset
-    if 'Incident Datetime' in recent_df.columns:
-        recent_df['Date'] = pd.to_datetime(recent_df['Incident Datetime'])
-    elif 'Incident Date' in recent_df.columns:
-        recent_df['Date'] = pd.to_datetime(recent_df['Incident Date'])
-
-    # Harmonize category names and filter vehicle thefts
-    print("\nHarmonizing categories...")
-    historical_vehicle_theft = historical_df[historical_df['Category'] == 'VEHICLE THEFT'].copy()
-
-    # For recent data, handle both possible category column names
-    if 'Incident Category' in recent_df.columns:
-        recent_vehicle_theft = recent_df[recent_df['Incident Category'].str.contains('Vehicle Theft', case=False, na=False)].copy()
-    else:
-        recent_vehicle_theft = recent_df[recent_df['Category'].str.contains('Vehicle Theft', case=False, na=False)].copy()
-
-    # Combine datasets
-    print("\nCombining datasets...")
-    vehicle_theft_df = pd.concat([historical_vehicle_theft, recent_vehicle_theft], ignore_index=True)
+    if 'Incident Datetime' in vehicle_theft_df.columns:
+        vehicle_theft_df['Date'] = pd.to_datetime(vehicle_theft_df['Incident Datetime'])
+    elif 'Incident Date' in vehicle_theft_df.columns:
+        vehicle_theft_df['Date'] = pd.to_datetime(vehicle_theft_df['Incident Date'])
 
     # Filter out future dates
     current_date = pd.Timestamp.now()
     vehicle_theft_df = vehicle_theft_df[vehicle_theft_df['Date'] <= current_date]
+
+    # Filter out data beyond 2024
+    vehicle_theft_df = vehicle_theft_df[vehicle_theft_df['Year'] <= 2024]
 
     # Extract time components
     vehicle_theft_df['Year'] = vehicle_theft_df['Date'].dt.year
@@ -106,6 +112,9 @@ try:
     # 1. Time Series Plot
     plt.figure(figsize=(15, 8))
     yearly_thefts = vehicle_theft_df.groupby('Year').size().reset_index(name='count')
+    
+    # Filter data up to 2024
+    yearly_thefts = yearly_thefts[yearly_thefts['Year'] <= 2024]
 
     plt.fill_between(yearly_thefts['Year'], yearly_thefts['count'], 
                      color='darkred', alpha=0.3)
@@ -123,8 +132,8 @@ try:
     plt.grid(True, alpha=0.3)
 
     start_year = int(vehicle_theft_df['Year'].min())
-    end_year = int(vehicle_theft_df['Year'].max())
-    plt.title(f'Vehicle Theft Trends in San Francisco ({start_year}-{end_year})', pad=20, fontsize=14)
+    end_year = 2024  # Change this to 2024
+    plt.title(f'Vehicle Theft Trends in San Francisco ({start_year}-2024)', pad=20, fontsize=14)
     plt.xlabel('Year')
     plt.ylabel('Number of Vehicle Thefts')
     plt.tight_layout()
@@ -174,6 +183,7 @@ except Exception as e:
     print("Please ensure all required packages are installed:")
     print("pip install pandas matplotlib")
     sys.exit(1)
+
 
 ```
 
