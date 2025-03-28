@@ -4,10 +4,6 @@ title: Home
 permalink: /
 ---
 
-# Social Data Analysis and Visualization 
-
-
-
 
 # **Vehicle Theft in San Francisco: A Tale of Two Decades**
 
