@@ -78,9 +78,6 @@ try:
     plt.figure(figsize=(15, 8))
     yearly_thefts = vehicle_theft_df.groupby('Year').size().reset_index(name='count')
     
-    # Filter data up to 2024
-    yearly_thefts = yearly_thefts[yearly_thefts['Year'] <= 2024]
-
     plt.fill_between(yearly_thefts['Year'], yearly_thefts['count'], 
                      color='darkred', alpha=0.3)
     plt.plot(yearly_thefts['Year'], yearly_thefts['count'], 
@@ -97,8 +94,8 @@ try:
     plt.grid(True, alpha=0.3)
 
     start_year = int(vehicle_theft_df['Year'].min())
-    end_year = 2024  # Change this to 2024
-    plt.title(f'Vehicle Theft Trends in San Francisco ({start_year}-2024)', pad=20, fontsize=14)
+    end_year = 2024  # Changed from 2025 to 2024
+    plt.title(f'Vehicle Theft Trends in San Francisco (2003-2024)', pad=20, fontsize=14)
     plt.xlabel('Year')
     plt.ylabel('Number of Vehicle Thefts')
     plt.tight_layout()
