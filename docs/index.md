@@ -57,7 +57,7 @@ Our second visualization presents a horizontal bar chart showing the distributio
 <iframe 
     src="/assets/crime_viz.html" 
     width="900" 
-    height="700"
+    height="800"
     frameborder="0"
     scrolling="no"
 ></iframe>
