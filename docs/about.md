@@ -16,3 +16,7 @@ Group 13
 
 
 # Contribution 
+
+![Contribution][table]
+
+[table]: /contribution_table.jpg
