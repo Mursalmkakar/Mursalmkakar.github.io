@@ -63,14 +63,6 @@ To rule out inaccurate tracking as a potential explanation, it’s useful to com
 
 Instead, a closer look at statewide police initiatives helps explain this decline. According to the *East Bay Times*, law enforcement institutions across California adopted new technologies in 2006 in order to reduce the amount of vehicle theft in the state. For instance, the introduction of bait cars, equipped with GPS tracking devices and cameras, helped officers track and arrest thieves more effectively. Additionally, increased vehicle security features, such as built-in alarms and key-coding systems, made newer models much harder to steal. These combined measures likely contributed to the reduction in thefts observed in 2006 [2].
 
-### References
-
-[1] Tsai, J. (2022). *One in three homes in this San Francisco neighborhood lives below the poverty line*. The San Francisco Standard. [URL](https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/)
-
-
-[2] Sheppard, H. (2016). *Car thefts decrease statewide*. East Bay Times. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
-
-
 
 # Interactive Vehicle Theft Hotspots Map
 
@@ -81,3 +73,12 @@ Instead, a closer look at statewide police initiatives helps explain this declin
     frameborder="0"
     scrolling="no"
 ></iframe>
+
+
+### References
+
+[1] Tsai, J. (2022). *One in three homes in this San Francisco neighborhood lives below the poverty line*. The San Francisco Standard. [URL](https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/)
+
+
+[2] Sheppard, H. (2016). *Car thefts decrease statewide*. East Bay Times. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
+
