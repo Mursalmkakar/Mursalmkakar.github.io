@@ -1,8 +1,27 @@
 ---
+
 layout: page
 title: Home
 permalink: /
+styles:
+  - /assets/css/custom.css
+
 ---
+
+<style>
+body {
+    background-image: url('/Mursalmkakar.github.io/assets/images/pic1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+</style>
 
 
 # **Vehicle Theft in San Francisco: A Tale of Two Decades**
