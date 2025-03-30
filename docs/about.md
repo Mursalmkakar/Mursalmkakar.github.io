@@ -16,15 +16,3 @@ Group 13
 
 
 # Contribution 
-
-from tabulate import tabulate
-
-data = [
-    ["Alice", 24, "Engineer"],
-    ["Bob", 30, "Designer"],
-    ["Charlie", 28, "Teacher"]
-]
-
-headers = ["Name", "Age", "Profession"]
-
-print(tabulate(data, headers=headers, tablefmt="grid"))
