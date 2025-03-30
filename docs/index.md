@@ -48,8 +48,28 @@ Third, a steady decline period from 2006 to 2010 showed a gradual decrease to ar
 
 Our second visualization presents a horizontal bar chart showing the distribution of vehicle thefts across San Francisco's police districts. The top three high-risk districts account for 47% of total thefts: Ingleside (20,546 thefts, 16.3%), Mission (17,297 thefts, 13.7%), and Bayview (16,780 thefts, 13.3%). These districts consistently showed high theft rates, particularly during the peak years of the early 2000s, when overall city thefts reached 18,103 annually.
 
-# One map
+# Mapping of total vehicle theft reports
+<iframe src="plot1.html" width="800" height="600"></iframe>
+The following choropleth map is a more visual and interactive presentation of the previous the bar plot. The map is colour-graded by total amount of reports of vehicle thefts, and allows the reader to examine the data in more detail by the zooming and hovering functions.
 
+As you zoom out also allowing the sorrounding areas of San Francisco to be displayed, you see that the top 3 districts (Ingleside, Mission & Bayview) are located in the center/center-right side of San Francisco. Initially, one might think that this also translates to more civilized areas naturally leading to more vehicle thefts. However, as you examine the demographics of the different districts, neither Ingleside, Mission or Bayview seem to have significant larger populations than others. More interestingly, both Mission and Bayview are among the districts with the highest poverty rate (>10%) possibly placing these areas aming the ones with the highest crime rates [1]. This may very well be one of the main reasons for these being in the top 3 district with most vehicle thefts as higher poverty levels typically leads to more crime occurences in society. 
+
+### References:
+[1] Tsai, J. (2022). *One in three homes in this San Francisco neighborhood lives below the poverty line*. The San Francisco Standard. URL: *https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/*
+
+# Diving into 2005 to 2006 numbers
+<iframe src="plot_of_2005.html" width="800" height="600"></iframe>
+<iframe src="plot_of_2006.html" width="800" height="600"></iframe>
+From the previous plot on total vehicle theft crimes per year, we saw a significant decline in crime reports from 2005 to 2006. This reduction is likely due to the implementation of enhanced security measures and more accurate tracking of vehicle theft incidents.
+
+To rule out inaccurate tracking as a potential explanation, it’s useful to compare the proportions of vehicle thefts by district between 2005 and 2006. As the map above reveals, there is no significant change in the proportion of vehicle thefts by district despite the sharp decline in the total number of theft reports across all districts. This suggests that the large drop in vehicle thefts from 2005 to 2006 is unlikely to be attributed to flawed data collection.
+
+Instead, a closer look at statewide police initiatives helps explain this decline. According to the *East Bay Times*, law enforcement institutions across California adopted new technologies in 2006 in order to reduce the amount of vehicle theft in the state. For instance, the introduction of bait cars, equipped with GPS tracking devices and cameras, helped officers track and arrest thieves more effectively. Additionally, increased vehicle security features, such as built-in alarms and key-coding systems, made newer models much harder to steal. These combined measures likely contributed to the reduction in thefts observed in 2006 [2].
+
+### References
+
+[2]: Sheppard, H. (2016). *Car thefts decrease statewide*. East Bay Times
+URL: *https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/*
 
 
 # Interactive Vehicle Theft Hotspots Map
