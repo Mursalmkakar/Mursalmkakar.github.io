@@ -208,5 +208,12 @@ except Exception as e:
 
 
 
-# One interactive visualization in Bokeh
+# Interactive Vehicle Theft Hotspots Map
 
+<iframe 
+    src="/assets/crime_viz.html" 
+    width="900" 
+    height="700"
+    frameborder="0"
+    scrolling="no"
+></iframe>
