@@ -54,9 +54,6 @@ The following choropleth map is a more visual and interactive presentation of th
 
 As you zoom out also allowing the sorrounding areas of San Francisco to be displayed, you see that the top 3 districts (Ingleside, Mission & Bayview) are located in the center/center-right side of San Francisco. Initially, one might think that this also translates to more civilized areas naturally leading to more vehicle thefts. However, as you examine the demographics of the different districts, neither Ingleside, Mission or Bayview seem to have significant larger populations than others. More interestingly, both Mission and Bayview are among the districts with the highest poverty rate (>10%) possibly placing these areas aming the ones with the highest crime rates [1]. This may very well be one of the main reasons for these being in the top 3 district with most vehicle thefts as higher poverty levels typically leads to more crime occurences in society. 
 
-### References:
-[1] Tsai, J. (2022). *One in three homes in this San Francisco neighborhood lives below the poverty line*. The San Francisco Standard. URL: *https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/*
-
 # Diving into 2005 to 2006 numbers
 <iframe src="plot_of_2005.html" width="800" height="600"></iframe>
 <iframe src="plot_of_2006.html" width="800" height="600"></iframe>
@@ -67,6 +64,7 @@ To rule out inaccurate tracking as a potential explanation, it’s useful to com
 Instead, a closer look at statewide police initiatives helps explain this decline. According to the *East Bay Times*, law enforcement institutions across California adopted new technologies in 2006 in order to reduce the amount of vehicle theft in the state. For instance, the introduction of bait cars, equipped with GPS tracking devices and cameras, helped officers track and arrest thieves more effectively. Additionally, increased vehicle security features, such as built-in alarms and key-coding systems, made newer models much harder to steal. These combined measures likely contributed to the reduction in thefts observed in 2006 [2].
 
 ### References
+[1] Tsai, J. (2022). *One in three homes in this San Francisco neighborhood lives below the poverty line*. The San Francisco Standard. URL: *https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/*
 
 [2]: Sheppard, H. (2016). *Car thefts decrease statewide*. East Bay Times
 URL: *https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/*
