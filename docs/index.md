@@ -26,8 +26,8 @@ body {
 
 # **Vehicle Theft in San Francisco: A Tale of Two Decades**
 
-In the bustling streets of San Francisco, vehicle theft remains a persistent urban challenge that affects residents and visitors alike. This analysis delves into an extensive dataset from the San Francisco Police Department, combining historical records from 2003 to 2018 with contemporary data through present day.
-Our dataset captures every reported vehicle theft incident, including crucial details such as the location, timing, and police district response. This comprehensive view allows us to track not just the raw numbers, but also understand the geographical and temporal patterns that shape vehicle crime in San Francisco.
+In the bustling streets of San Francisco, vehicle theft remains a persistent urban challenge that affects residents and visitors alike. This analysis delves into an extensive dataset from the San Francisco Police Department, combining historical records from 2003 to 2024 with contemporary data through present day.
+Our dataset captures every reported vehicle theft incident, including crucial details such as the location, timing and which district. This comprehensive view allows us to track not just the raw numbers, but also understand the geographical and temporal patterns that shape vehicle crime in San Francisco.
 
 # Time Series Trend Analysis (2003-2024)
 
@@ -35,7 +35,7 @@ Our dataset captures every reported vehicle theft incident, including crucial de
 
 *Figure 1: Yearly trends in vehicle thefts across San Francisco.*
 
-Our first visualization reveals the ebb and flow of vehicle thefts across San Francisco over two decades. The time series plot is rendered in deep red to emphasize the gravity of these incidents.
+Our first visualization reveals the ebb and flow of vehicle thefts across San Francisco from the early 2000s to the early 2020s. The time series plot is rendered in deep red to emphasize the gravity of these incidents.
 The visualization highlights several key findings: First, an unprecedented peak of 18,103 thefts occurred in the early 2000s. This period coincides with the pre-smartphone era when vehicle security systems were less sophisticated. Second, a sharp decline occurred from 2005 to 2006, with theft numbers dropping dramatically from approximately 18,000 to 7,000. This significant reduction might be attributed to the implementation of new police strategies, improvements in vehicle anti-theft technology, and the introduction of better security systems.
 Third, a steady decline period from 2006 to 2010 showed a gradual decrease to around 4,500 thefts. During 2011-2019, the trend shifted to show a moderate increase followed by fluctuating patterns, with thefts hovering between 5,000 and 8,000 annually. These small peaks and valleys suggest seasonal patterns in vehicle theft activity. Finally, the period from 2020 to 2024 exhibited notable fluctuations, particularly during the pandemic years, reflecting the unusual circumstances and changing urban dynamics of this period.
 
@@ -64,15 +64,22 @@ To rule out inaccurate tracking as a potential explanation, it’s useful to com
 Instead, a closer look at statewide police initiatives helps explain this decline. According to the *East Bay Times*, law enforcement institutions across California adopted new technologies in 2006 in order to reduce the amount of vehicle theft in the state. For instance, the introduction of bait cars, equipped with GPS tracking devices and cameras, helped officers track and arrest thieves more effectively. Additionally, increased vehicle security features, such as built-in alarms and key-coding systems, made newer models much harder to steal. These combined measures likely contributed to the reduction in thefts observed in 2006 [2].
 
 
-# Interactive Vehicle Theft Hotspots Map
+# Interactive Bokeh Plot for Vehicle Theft Hotspots
+
+We have looked into the vehicle thefts on a macro level divided into districts, why not jump into the specifics? Below is an interactive plot made in bokeh, using the OpenStreetMap tool and we can find red circles on the map indicating where a vehicle theft has occured in a given year. Some areas experienced vehicle theft multiple times and it has been captured in this map, where larger circles along with more opaque red colors indicate higher concentrations of vehicle theft. Hovering over each red circle will show the year, number of crimes as well as which district it belongs to.
+
+Dive into this interactive plot below to find hotspots by hovering over the red markers! 
 
 <iframe 
     src="/assets/crime_viz.html" 
     width="900" 
-    height="800"
+    height="820"
     frameborder="0"
     scrolling="no"
 ></iframe>
+
+### Notable Recent Developments in 430A in Bayview
+By going through the dropdown, there is a large concentration of vehicle thefts at 430A just east of Portola in the Bayview district. This area experienced this large concentration in the 2000s, later on dying out in the 2010s, but recently since the pandemic, this area is seeing a meteoric rise in vehicle thefts. Concentrated in areas like Portola, the Mission and the Bayview, we have "freeways crisscross blocks of industrial buildings with parking lots" leave them vulnerable to thieves. Further comments by a Bayview station police officer mentions Bayview's "large, secluded industrial zones" make it vulnerable compared to denser neighborhoods with cameras. [3]
 
 
 ### References
@@ -82,3 +89,4 @@ Instead, a closer look at statewide police initiatives helps explain this declin
 
 [2] Sheppard, H. (2016). *Car thefts decrease statewide*. East Bay Times. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
 
+[3] Swan, Rachel, and Adriana Rezal. “These Neighborhoods Are San Francisco’s Car-Theft Hot Spots.” San Francisco Chronicle, San Francisco Chronicle, 28 Sept. 2023, [URL](https://www.sfchronicle.com/crime/article/car-theft-san-francisco-18387300.php)
