@@ -46,7 +46,7 @@ Third, a steady decline period from 2006 to 2010 showed a gradual decrease to ar
 
 *Figure 2: Theft distribution across San Francisco districts.*
 
-Our second visualization presents a horizontal bar chart showing the distribution of vehicle thefts across San Francisco's police districts. The top three high-risk districts account for 47% of total thefts: Ingleside (20,546 thefts, 16.3%), Mission (17,297 thefts, 13.7%), and Bayview (16,780 thefts, 13.3%). These districts consistently showed high theft rates, particularly during the peak years of the early 2000s, when overall city thefts reached 18,103 annually.
+When breaking down vehicle thefts by police district, distinct spatial patterns begin to emerge. Ingleside leads with over 20.000 reported thefts, followed closely by Mission and Bayview, together accounting for nearly half of all vehicle thefts citywide. These districts consistently experienced high theft volumes throughout the two decades, especially during peak years in the early 2000s. In contrast, districts such as Park, Tenderloin, and Richmond reported significantly fewer incidents, suggesting either more effective local deterrents, differences in vehicle density, or varying levels of police reporting and enforcement. 
 
 # Mapping of total vehicle theft reports
 <iframe src="plot1.html" width="800" height="600"></iframe>
