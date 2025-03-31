@@ -81,7 +81,4 @@ Instead, a closer look at statewide police initiatives helps explain this declin
 
 [2] Sheppard, H. (2016). *Car thefts decrease statewide*. East Bay Times. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
 
-[3] Tsai, J. (2022) from The San Francisco Standard - discussing poverty rates in San Francisco neighborhoods
-[URL](https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/)
-
-[4] Sheppard, H. (2016) from East Bay Times - discussing statewide car theft decrease. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
+[3] Sheppard, H. (2016) from East Bay Times - discussing statewide car theft decrease. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
