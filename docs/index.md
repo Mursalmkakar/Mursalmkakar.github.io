@@ -79,11 +79,11 @@ Dive into this interactive plot below to find hotspots by hovering over the red 
 
 ### Notable Recent Developments in 430A in Bayview
  
-By going through the dropdown, there is a large concentration of vehicle thefts at 430A just east of Portola in the Bayview district. This area experienced this large concentration in the 2000s, later on dying out in the 2010s, but recently since the pandemic, this area is seeing a meteoric rise in vehicle thefts. Concentrated in areas like Portola, the Mission and the Bayview, we have "freeways crisscross blocks of industrial buildings with parking lots" leave them vulnerable to thieves. Further comments by a Bayview station police officer mentions Bayview's "large, secluded industrial zones" make it vulnerable compared to denser neighborhoods with cameras. [3]
+By going through the dropdown, there is a large concentration of vehicle thefts at 430A just east of Portola in the Bayview district. This area experienced this large concentration in the 2000s, later on dying out in the 2010s, but recently since the pandemic, this area is seeing a meteoric rise in vehicle thefts. Concentrated in areas like Portola, the Mission and the Bayview, we have "freeways crisscross blocks of industrial buildings with parking lots" leave them vulnerable to thieves. Further comments by a Bayview station police officer mentions Bayview's "large, secluded industrial zones" make it vulnerable compared to denser neighborhoods with cameras. [4]
 
 ### Other developments 
  
-Other concentrations have also been formed between Mission district as well as the South of Market. Reasons as to why there are instances of vehicle theft concentrations are attributed to similiar reasons to the Bayview area. The mission area contains "warehouses, business high-rises and a quick route to the open road" and as such, both South of Market as well as Mission are highly ranked in the neighborhoods vulnerable to vehicle theft. [4] How these trends will continue to evolve is yet to be seen as 2025 isn't completed yet, but historical trends are accessible through a dropdown and a hover of your computer mouse!
+Other concentrations have also been formed between Mission district as well as the South of Market. Reasons as to why there are instances of vehicle theft concentrations are attributed to similiar reasons to the Bayview area. The mission area contains "warehouses, business high-rises and a quick route to the open road" and as such, both South of Market as well as Mission are highly ranked in the neighborhoods vulnerable to vehicle theft. [5] How these trends will continue to evolve is yet to be seen as 2025 isn't completed yet, but historical trends are accessible through a dropdown and a hover of your computer mouse!
 
 ### References
 
@@ -91,6 +91,8 @@ Other concentrations have also been formed between Mission district as well as t
 
 [2] Sheppard, H. (2016). *Car thefts decrease statewide*. East Bay Times. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
 
-[3] Swan, Rachel, and Adriana Rezal. “These Neighborhoods Are San Francisco’s Car-Theft Hot Spots.” San Francisco Chronicle, San Francisco Chronicle, 28 Sept. 2023, [URL](https://www.sfchronicle.com/crime/article/car-theft-san-francisco-18387300.php)
+[3] Sheppard, H. (2016) from East Bay Times - discussing statewide car theft decrease. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
 
-[4] Kaplan, Ben. “2023 WE San Francisco Auto Theft Report.” WE San Francisco, 1 Jan. 2024, www.wesanfrancisco.org/data/2023-car-theft. [URL](https://www.wesanfrancisco.org/data/2023-car-theft)
+[4] Swan, Rachel, and Adriana Rezal. “These Neighborhoods Are San Francisco’s Car-Theft Hot Spots.” San Francisco Chronicle, San Francisco Chronicle, 28 Sept. 2023, [URL](https://www.sfchronicle.com/crime/article/car-theft-san-francisco-18387300.php)
+
+[5] Kaplan, Ben. “2023 WE San Francisco Auto Theft Report.” WE San Francisco, 1 Jan. 2024, www.wesanfrancisco.org/data/2023-car-theft. [URL](https://www.wesanfrancisco.org/data/2023-car-theft)
