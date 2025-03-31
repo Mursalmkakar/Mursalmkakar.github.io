@@ -8,7 +8,7 @@ permalink: /about/
 
 # Assignment 2 - Spring 2025
 
-Group 13
+Group 69
  - Mursal Kakar (s240362)
  - Gisle Joe Garen (s242715)
  - Joachim Rønsholt (233914)
@@ -17,6 +17,10 @@ Group 13
 
 # Contribution 
 
-![Contribution][table]
+s240362 = Build website
 
-[table]: /contribution_table.jpg
+s240362 = Time Series Trend Analysis (2003-2024) + Vehicle Thefts by District
+
+s233914 = Interactive map of total vehicle theft reports + 2005/2006 interactice map comparison 
+
+s242715 = Interactive Vehicle Theft Hotspots Map

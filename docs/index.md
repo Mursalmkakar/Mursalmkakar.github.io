@@ -46,7 +46,7 @@ Third, a steady decline period from 2006 to 2010 showed a gradual decrease to ar
 
 *Figure 2: Theft distribution across San Francisco districts.*
 
-Our second visualization presents a horizontal bar chart showing the distribution of vehicle thefts across San Francisco's police districts. The top three high-risk districts account for 47% of total thefts: Ingleside (20,546 thefts, 16.3%), Mission (17,297 thefts, 13.7%), and Bayview (16,780 thefts, 13.3%). These districts consistently showed high theft rates, particularly during the peak years of the early 2000s, when overall city thefts reached 18,103 annually.
+When breaking down vehicle thefts by police district, distinct spatial patterns begin to emerge. Ingleside leads with over 20.000 reported thefts, followed closely by Mission and Bayview, together accounting for nearly half of all vehicle thefts citywide. These districts consistently experienced high theft volumes throughout the two decades, especially during peak years in the early 2000s. In contrast, districts such as Park, Tenderloin, and Richmond reported significantly fewer incidents, suggesting either more effective local deterrents, differences in vehicle density, or varying levels of police reporting and enforcement. 
 
 # Mapping of total vehicle theft reports
 <iframe src="plot1.html" width="800" height="600"></iframe>
@@ -81,12 +81,16 @@ Dive into this interactive plot below to find hotspots by hovering over the red 
 ### Notable Recent Developments in 430A in Bayview
 By going through the dropdown, there is a large concentration of vehicle thefts at 430A just east of Portola in the Bayview district. This area experienced this large concentration in the 2000s, later on dying out in the 2010s, but recently since the pandemic, this area is seeing a meteoric rise in vehicle thefts. Concentrated in areas like Portola, the Mission and the Bayview, we have "freeways crisscross blocks of industrial buildings with parking lots" leave them vulnerable to thieves. Further comments by a Bayview station police officer mentions Bayview's "large, secluded industrial zones" make it vulnerable compared to denser neighborhoods with cameras. [3]
 
-
 ### References
 
 [1] Tsai, J. (2022). *One in three homes in this San Francisco neighborhood lives below the poverty line*. The San Francisco Standard. [URL](https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/)
 
-
 [2] Sheppard, H. (2016). *Car thefts decrease statewide*. East Bay Times. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
 
 [3] Swan, Rachel, and Adriana Rezal. “These Neighborhoods Are San Francisco’s Car-Theft Hot Spots.” San Francisco Chronicle, San Francisco Chronicle, 28 Sept. 2023, [URL](https://www.sfchronicle.com/crime/article/car-theft-san-francisco-18387300.php)
+
+<!--
+[4] Tsai, J. (2022) from The San Francisco Standard - discussing poverty rates in San Francisco neighborhoods
+[URL] (<https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/>)
+
+[5] Sheppard, H. (2016) from East Bay Times - discussing statewide car theft decrease. [URL] (<https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/>) -->
