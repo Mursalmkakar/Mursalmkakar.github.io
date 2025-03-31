@@ -92,5 +92,7 @@ By going through the dropdown, there is a large concentration of vehicle thefts 
 <!--
 [4] Tsai, J. (2022) from The San Francisco Standard - discussing poverty rates in San Francisco neighborhoods
 [URL] (<https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/>)
+[3] Tsai, J. (2022) from The San Francisco Standard - discussing poverty rates in San Francisco neighborhoods
+[URL](https://sfstandard.com/2022/12/08/san-francisco-neighborhood-new-census-data-maps/)
 
-[5] Sheppard, H. (2016) from East Bay Times - discussing statewide car theft decrease. [URL] (<https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/>) -->
+[5] Sheppard, H. (2016) from East Bay Times - discussing statewide car theft decrease. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/) -->
