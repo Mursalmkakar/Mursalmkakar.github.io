@@ -21,6 +21,6 @@ s240362 = Build website
 
 s240362 = Time Series Trend Analysis (2003-2024) + Vehicle Thefts by District
 
-s233914 = Mapping of total vehicle theft reports 
+s233914 = Interactive map of total vehicle theft reports + 2005/2006 interactice map comparison 
 
 s242715 = Interactive Vehicle Theft Hotspots Map
