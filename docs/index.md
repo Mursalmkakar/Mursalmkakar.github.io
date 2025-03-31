@@ -63,17 +63,27 @@ At first glimps, the rapid decline from 2005 to 2006 may likely raise a few ques
 
 Instead, a closer look at statewide police initiatives helps explain this decline. According to the *East Bay Times*, law enforcement institutions across California adopted new technologies in 2006 in order to reduce the amount of vehicle theft in the state. For instance, the introduction of bait cars, equipped with GPS tracking devices and cameras, helped officers track and arrest thieves more effectively. Additionally, increased vehicle security features, such as built-in alarms and key-coding systems, made newer models much harder to steal. These combined measures likely contributed to the reduction in thefts observed in 2006 [2].
 
+# Interactive Bokeh Plot for Vehicle Theft Hotspots
 
-# Interactive Vehicle Theft Hotspots Map
+We have looked into the vehicle thefts on a macro level divided into districts, why not jump into the specifics? Below is an interactive plot made in bokeh, using the OpenStreetMap tool and we can find red circles on the map indicating where a vehicle theft has occured in a given year. Some areas experienced vehicle theft multiple times and it has been captured in this map, where larger circles along with more opaque red colors indicate higher concentrations of vehicle theft. Hovering over each red circle will show the year, number of crimes as well as which district it belongs to.
+
+Dive into this interactive plot below to find hotspots by hovering over the red markers! 
 
 <iframe 
     src="/assets/crime_viz.html" 
     width="900" 
-    height="800"
+    height="820"
     frameborder="0"
     scrolling="no"
 ></iframe>
 
+### Notable Recent Developments in 430A in Bayview
+ 
+By going through the dropdown, there is a large concentration of vehicle thefts at 430A just east of Portola in the Bayview district. This area experienced this large concentration in the 2000s, later on dying out in the 2010s, but recently since the pandemic, this area is seeing a meteoric rise in vehicle thefts. Concentrated in areas like Portola, the Mission and the Bayview, we have "freeways crisscross blocks of industrial buildings with parking lots" leave them vulnerable to thieves. Further comments by a Bayview station police officer mentions Bayview's "large, secluded industrial zones" make it vulnerable compared to denser neighborhoods with cameras. [3]
+
+### Other developments 
+ 
+Other concentrations have also been formed between Mission district as well as the South of Market. Reasons as to why there are instances of vehicle theft concentrations are attributed to similiar reasons to the Bayview area. The mission area contains "warehouses, business high-rises and a quick route to the open road" and as such, both South of Market as well as Mission are highly ranked in the neighborhoods vulnerable to vehicle theft. [4] How these trends will continue to evolve is yet to be seen as 2025 isn't completed yet, but historical trends are accessible through a dropdown and a hover of your computer mouse!
 
 ### References
 
@@ -81,4 +91,6 @@ Instead, a closer look at statewide police initiatives helps explain this declin
 
 [2] Sheppard, H. (2016). *Car thefts decrease statewide*. East Bay Times. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
 
-[3] Sheppard, H. (2016) from East Bay Times - discussing statewide car theft decrease. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
+[3] Swan, Rachel, and Adriana Rezal. “These Neighborhoods Are San Francisco’s Car-Theft Hot Spots.” San Francisco Chronicle, San Francisco Chronicle, 28 Sept. 2023, [URL](https://www.sfchronicle.com/crime/article/car-theft-san-francisco-18387300.php)
+
+[4] Kaplan, Ben. “2023 WE San Francisco Auto Theft Report.” WE San Francisco, 1 Jan. 2024, www.wesanfrancisco.org/data/2023-car-theft. [URL](https://www.wesanfrancisco.org/data/2023-car-theft)
