@@ -17,13 +17,10 @@ Group 69
 
 # Contribution 
 
+s240362 = Build website
 
-| Build website                          | s240362   
-+----------------------------------------+-----------
-| Time Series Trend Analysis (2003-2024) | s240362   
-+----------------------------------------+-----------
-| Vehicle Thefts by District             | s240362   
-+----------------------------------------+-----------
-| Mapping of total vehicle theft reports | s233914   
-+----------------------------------------+-----------
-| Interactive Vehicle Theft Hotspots Map | s242715 
+s240362 = Time Series Trend Analysis (2003-2024) + Vehicle Thefts by District
+
+s233914 = Mapping of total vehicle theft reports 
+
+s242715 = Interactive Vehicle Theft Hotspots Map
