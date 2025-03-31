@@ -36,18 +36,9 @@ Our dataset captures every reported vehicle theft incident, including crucial de
 *Figure 1: Yearly trends in vehicle thefts across San Francisco.*
 
 Our first visualization reveals the ebb and flow of vehicle thefts across San Francisco over two decades. The time series plot is rendered in deep red to emphasize the gravity of these incidents.
-The visualization highlights several key findings: First, an unprecedented peak of 18,103 thefts occurred in the early 2000s. This period coincides with the pre-smartphone era when vehicle security systems were less sophisticated. Second, a sharp decline occurred from 2005 to 2006, with theft numbers dropping dramatically from approximately 18,000 to 7,000. This significant reduction might be attributed to the implementation of new police strategies, improvements in vehicle anti-theft technology, and the introduction of better security systems [1], [2].
+The visualization highlights several key findings: First, an unprecedented peak of 18,103 thefts occurred in the early 2000s. This period coincides with the pre-smartphone era when vehicle security systems were less sophisticated. Second, a sharp decline occurred from 2005 to 2006, with theft numbers dropping dramatically from approximately 18,000 to 7,000. This significant reduction might be attributed to the implementation of new police strategies, improvements in vehicle anti-theft technology, and the introduction of better security systems [1], [3].
 Third, a steady decline period from 2006 to 2010 showed a gradual decrease to around 4,500 thefts. During 2011-2019, the trend shifted to show a moderate increase followed by fluctuating patterns, with thefts hovering between 5,000 and 8,000 annually. These small peaks and valleys suggest seasonal patterns in vehicle theft activity. Finally, the period from 2020 to 2024 exhibited notable fluctuations, particularly during the pandemic years, reflecting the unusual circumstances and changing urban dynamics of this period.
 
-
-When breaking down vehicle thefts by police district, distinct spatial patterns begin to emerge. Ingleside leads with over 20.000 reported thefts, followed closely by Mission and Bayview, together accounting for nearly half of all vehicle thefts citywide. These districts consistently experienced high theft volumes throughout the two decades, especially during peak years in the early 2000s. In contrast, districts such as Park, Tenderloin, and Richmond reported significantly fewer incidents, suggesting either more effective local deterrents, differences in vehicle density, or varying levels of police reporting and enforcement. 
-
-
-# Vehicle Thefts by District
-
-![Vehicle Theft by District](/vehicle_theft_by_district.png)
-
-*Figure 2: Theft distribution across San Francisco districts.*
 
 When breaking down vehicle thefts by police district, distinct spatial patterns begin to emerge. Ingleside leads with over 20.000 reported thefts, followed closely by Mission and Bayview, together accounting for nearly half of all vehicle thefts citywide. These districts consistently experienced high theft volumes throughout the two decades, especially during peak years in the early 2000s. In contrast, districts such as Park, Tenderloin, and Richmond reported significantly fewer incidents, suggesting either more effective local deterrents, differences in vehicle density, or varying levels of police reporting and enforcement. 
 
@@ -91,6 +82,3 @@ Instead, a closer look at statewide police initiatives helps explain this declin
 [2] Sheppard, H. (2016). *Car thefts decrease statewide*. East Bay Times. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
 
 [3] Sheppard, H. (2016) from East Bay Times - discussing statewide car theft decrease. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/)
-
-
-[5] Sheppard, H. (2016) from East Bay Times - discussing statewide car theft decrease. [URL](https://www.eastbaytimes.com/2007/02/16/car-thefts-decrease-statewide/) -->
